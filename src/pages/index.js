@@ -67,49 +67,39 @@ const IndexPage = () => {
           <section>
             <ul>
             <p>New Testament</p>
-              <li>Ecclesiastes</li>
-              <li>Song of Songs</li>
-              <li>Isaiah</li>
-              <li>Jeremiah</li>
-              <li>Lamentations</li>
-              <li>Ezekiel</li>
-              <li>Daniel</li>
-              <li>Hosea</li>
-              <li>Joel</li>
-              <li>Amos</li>
-              <li>Obadiah</li>
-              <li>Jonah</li>
-              <li>Micah</li>
-              <li>Nahum</li>
-              <li>Habakkuk</li>
-              <li>Zephaniah</li>
-              <li>Haggai</li>
-              <li>Zechariah</li>
-              <li>Malachi</li>
+            <li><Link to="/Matthew" className="bible_link">Matthew</Link></li>
+            <li><Link to="/Mark" className="bible_link">Mark</Link></li>
+            <li><Link to="/Luke" className="bible_link">Luke</Link></li>
+            <li><Link to="/John" className="bible_link">John</Link></li>
+            <li><Link to="/Acts" className="bible_link">Acts</Link></li>
+            <li><Link to="/Romans" className="bible_link">Romans</Link></li>
+            <li><Link to="/1 Corinthians" className="bible_link">1 Corinthians</Link></li>
+            <li><Link to="/2 Corinthians" className="bible_link">2 Corinthians</Link></li>
+            <li><Link to="/Galatians" className="bible_link">Galatians</Link></li>
+            <li><Link to="/Ephesians" className="bible_link">Ephesians</Link></li>
+            <li><Link to="/Phillipians" className="bible_link">Phillipians</Link></li>
+            <li><Link to="/Colossians" className="bible_link">Colossians</Link></li>
+
             </ul>
             </section>
             <section>
             <ul>
               <li></li>
-              <li>Ecclesiastes</li>
-              <li>Song of Songs</li>
-              <li>Isaiah</li>
-              <li>Jeremiah</li>
-              <li>Lamentations</li>
-              <li>Ezekiel</li>
-              <li>Daniel</li>
-              <li>Hosea</li>
-              <li>Joel</li>
-              <li>Amos</li>
-              <li>Obadiah</li>
-              <li>Jonah</li>
-              <li>Micah</li>
-              <li>Nahum</li>
-              <li>Habakkuk</li>
-              <li>Zephaniah</li>
-              <li>Haggai</li>
-              <li>Zechariah</li>
-              <li>Malachi</li>
+              <li><Link to="/1 Thessalonians" className="bible_link">1 Thessalonians</Link></li>
+            <li><Link to="/2 Thessalonians" className="bible_link">2 Thessalonians</Link></li>
+            <li><Link to="/1 Timothy" className="bible_link">1 Timothy</Link></li>
+            <li><Link to="/2 Timothy" className="bible_link">2 Timothy</Link></li>
+            <li><Link to="/Titus" className="bible_link">Titus</Link></li>
+            <li><Link to="/Philemon" className="bible_link">Philemon</Link></li>
+            <li><Link to="/Hebrews" className="bible_link">Hebrews</Link></li>
+              <li><Link to="/James" className="bible_link">James</Link></li>
+            <li><Link to="/1 Peter" className="bible_link">1 Peter</Link></li>
+            <li><Link to="/2 Peter" className="bible_link">2 Peter</Link></li>
+            <li><Link to="/1 John" className="bible_link">1 John</Link></li>
+            <li><Link to="/2 John" className="bible_link">2 John</Link></li>
+            <li><Link to="/3 John" className="bible_link">3 John</Link></li>
+            <li><Link to="/Jude" className="bible_link">Jude</Link></li>
+            <li><Link to="/Revelation" className="bible_link">Revelation</Link></li>
             </ul>
             </section>
         </div>
