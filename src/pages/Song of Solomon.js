@@ -4,7 +4,7 @@
         import SEO from "../components/seo"
 
         const Song_of_Solomon = () => (
-        <Book_layout dll_txt="../static/bible_txt/Song.txt" book_title="Song of Solomon">
+        <Book_layout dll_txt="Song.txt" book_title="Song of Solomon">
             <SEO title="Song of Solomon" />
             <p>
             The song of songs, which is Solomon's. 
