@@ -1,0 +1,50 @@
+.nav_bar {
+  background: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 1000px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.section_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_bar > h1 {
+  font-family: "Playfair Display";
+  word-spacing: 2px;
+  font-size: 18px;
+}
+
+.nav_bar > .nav_group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  width: 60px;
+}
+
+svg {
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .nav_bar {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav_bar {
+    width: 1000px;
+  }
+}

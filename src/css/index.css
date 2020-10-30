@@ -1,0 +1,77 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index_bar {
+  background: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 1000px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.index_bar > h1 {
+  font-family: "Playfair Display";
+  word-spacing: 2px;
+  font-size: 18px;
+}
+
+.home > main > h1 {
+  font-family: "Playfair Display";
+  word-spacing: 2px;
+  font-size: 18px;
+}
+
+.home > main > p {
+  font-size: 15px;
+  font-family: "Lora";
+  word-spacing: 2px;
+  line-height: 1.8;
+}
+
+.home > main {
+  padding-top: 100px;
+  width: 800px;
+}
+
+.home > main > .bible_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+}
+
+.home > main > .bible_list > section > ul {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.home > main > .bible_list > section > ul > li:before {
+  display: inline-block;
+  content: " ";
+  width: 1em;
+}
+
+.home > main > .bible_list > section > ul > li {
+  font-size: 15px;
+  font-family: "Lora";
+  word-spacing: 2px;
+  line-height: 1.8;
+}
+
+.bible_link {
+  color: black;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}

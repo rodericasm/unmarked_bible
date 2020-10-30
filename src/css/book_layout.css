@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book > main {
+  padding-top: 100px;
+  width: 800px;
+}
+
+.book > main > q {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Lora";
+  word-spacing: 2px;
+  line-height: 2.3;
+  border-bottom: 1px dotted black;
+  display: table;
+  width: auto;
+}
+
+.book > main > p {
+  font-size: 15px;
+  font-family: "Lora";
+  word-spacing: 2px;
+  line-height: 2.3;
+}
+
+@media (max-width: 1000px) {
+  .book > main {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .book > main {
+    width: 750px;
+  }
+}
