@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px;
 }
 
 .index_bar {
@@ -48,6 +49,7 @@
   justify-content: space-between;
   align-items: center;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .home > main > .bible_list > section > ul {
@@ -55,6 +57,10 @@
   margin-left: 0;
   padding: 0;
   margin: 0;
+}
+
+.home > main > .bible_list > section {
+  max-width: 200px;
 }
 
 .home > main > .bible_list > section > ul > li:before {
