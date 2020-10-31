@@ -84,7 +84,7 @@ const Header = ({ book_title, dll_txt }) => {
           />
         </svg>
 
-        <a href={withPrefix() + "/bible_txt/" + dll_txt} download={dll_txt}>
+        <a href={withPrefix("/") + "/bible_txt/" + dll_txt} download={dll_txt}>
           <svg
             width="1.5em"
             height="1.5em"
