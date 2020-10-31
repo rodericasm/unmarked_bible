@@ -4,6 +4,7 @@ module.exports = {
     description: `Unmarked Bible`,
     author: `@gatsbyjs`,
   },
+  pathPrefix: `/unmarked_bible/`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
